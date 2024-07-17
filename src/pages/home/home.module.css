@@ -125,6 +125,10 @@ table td {
   th:last-child {
     border-radius: 0;
   }
+
+  .name img {
+    margin-left: 14px;
+  }
 }
 
 .buttonMore {
@@ -133,4 +137,21 @@ table td {
   color: #fff;
   margin: 14px 0;
   border-radius: 8px;
+}
+
+.Logo {
+  width: 20px;
+  height: 20px;
+  transition: all 1s;
+}
+
+.Logo:hover {
+  transform: scale(1.5);
+  z-index: 99;
+}
+
+.name {
+  display: flex;
+  gap: 8px;
+  align-items: center;
 }
